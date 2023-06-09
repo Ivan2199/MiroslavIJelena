@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Play Page</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-image: url("—Pngtree—aesthetic green gold marble wallpaper_1412960.png");
+      }
+
+      .play-button {
+        padding: 20px 40px;
+        font-size: 40px;
+        background-color: #f8f1f100;
+        border: solid 5px rgb(9, 90, 9);
+        font-weight: 500;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .play-button:hover{
+        background-color: antiquewhite;
+        color: rgb(9, 90, 9);
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="play-button">Play</button>
+
+    <script>
+      document.querySelector('.play-button').addEventListener('click', function() {
+        window.location.href = 'indeks.html';
+      });
+    </script>
+  </body>
+</html>
